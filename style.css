@@ -5,7 +5,14 @@
 }
 header{
     width: 100%;
-    background-color: #9E6DC2;
+    background-color: #290742;
     display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+main.conteudo-principal{
+    background-color: #290742;
+    display:flex ;
     justify-content: space-around;
 }
