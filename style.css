@@ -26,6 +26,7 @@ header.topo .submit-line button{
     background-color: #9E6DC2;
     height:44px;
     width:70px;
+    border:none !important;
 }
 main.conteudo-principal{
     background-color: #290742;
