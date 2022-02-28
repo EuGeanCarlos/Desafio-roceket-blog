@@ -40,6 +40,7 @@ header.topo .submit-line button{
     border:none !important;
 }
 main.conteudo-principal{
+    width: 100%;
     background-color: #290742;
     display:flex ;
     justify-content: space-around;
