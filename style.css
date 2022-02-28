@@ -11,7 +11,7 @@ header.topo{
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 header.topo a{
     padding: 0 20px;
@@ -44,4 +44,20 @@ main.conteudo-principal{
     background-color: #290742;
     display:flex ;
     justify-content: space-around;
+    padding: 0 5%;
+}
+main.conteudo-principal .text-conteudo-principal{
+    width: 50%;
+}
+main.conteudo-principal .text-conteudo-principal h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 54px;
+    color: #9E6DC2;
+}
+main.conteudo-principal .img-conteudo-principal{
+    width: 50%;
+}
+main.conteudo-principal .img-conteudo-principal img{
+    width: 100%;
 }
