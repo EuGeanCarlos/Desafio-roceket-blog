@@ -9,11 +9,20 @@ header.topo{
     background-color: #290742;
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
     padding: 20px 0;
 }
 header.topo a{
     padding: 0 20px;
     color: #F2E7FA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+header.topo .submit-line{
+    display: flex;
 }
 header.topo .submit-line input[type="text"]{
     background-color: #170027;
@@ -23,6 +32,7 @@ header.topo .submit-line input[type="text"]{
     width: 230px;
     padding:0 20px ;
 }
+
 header.topo .submit-line button{
     background-color: #9E6DC2;
     height:44px;
