@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.clear-both{
+    clear: both;
+}
 header.topo{
     width: 100%;
     background-color: #290742;
