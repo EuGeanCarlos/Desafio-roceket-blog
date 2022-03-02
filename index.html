@@ -62,5 +62,51 @@
         <div class="clear-both"></div>
     </section><!--NOTICIAS-->
 
+    <section class="carrossel-noticias">
+       
+        <div class="conteiner-slider">
+            <p class="data-artg">Janeiro 04, 2022</p>
+            <img src="img/post-2.png">
+            <h3></h3>
+            <p></p>
+        </div>
+        <div class="conteiner-slider">
+            <img src="img/post-3.png">
+            <p class="data-artg">Janeiro 04, 2022</p>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div class="conteiner-slider">
+            <img src="img/post-4.png">
+            <p class="data-artg">Janeiro 04, 2022</p>
+            <h3></h3>
+            <p></p>
+        </div>
+    </section><!---CARROSSEL SLIDE DE NOTICIAS-->
+
+    <script src="jquery.js"></script>
+        <script src="slick.min.js"></script>
+        <script>
+                $('.container-slider').slick({
+                dots: true,
+                arrows:false,
+                speed:1000,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                pauseOnHover:false,
+                responsive: [
+                            {
+                              breakpoint: 768,
+                              settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                              }
+                            }],
+                });
+        </script>
+
+
 </body>
 </html>
