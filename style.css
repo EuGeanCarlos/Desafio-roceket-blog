@@ -129,10 +129,14 @@ section.img-noticias p{
     line-height: 24px;
     color: #000;
 }
+section.carrossel-noticias div{
+    width: 33.3333%;
+}
 section.carrossel-noticias{
     width: 100%;
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-evenly;   
 }
 section.carrossel-noticias h3{
     color:#290742;
