@@ -134,19 +134,23 @@ section.carrossel-noticias{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;   
+    justify-content: space-around;  
+    padding: 0 5%; 
 }
-section.carrossel-noticias h3{
+section.carrossel-noticias .carrossel-noticias-post h3{
     color:#290742;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     line-height: 36px;
     font-weight: bold;
+    width: 90%;
 }
-section.carrossel-noticias p{
+section.carrossel-noticias .carrossel-noticias-post p{
     font-family: Roboto;
+    text-align: justify;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: #000;
+    width: 90%;
 }
