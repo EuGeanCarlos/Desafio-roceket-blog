@@ -135,7 +135,7 @@ section.carrossel-noticias{
     display: flex;
     flex-direction: row;
     justify-content: space-around;  
-    padding: 0 5%; 
+    padding: 0 5% 80px 5%; 
 }
 section.carrossel-noticias .carrossel-noticias-post h3{
     color:#290742;
@@ -147,7 +147,7 @@ section.carrossel-noticias .carrossel-noticias-post h3{
 }
 section.carrossel-noticias .carrossel-noticias-post p{
     font-family: Roboto;
-    text-align: justify;
+    text-align: ju;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
