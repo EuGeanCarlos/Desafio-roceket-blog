@@ -24,6 +24,36 @@ header.topo a{
     font-weight: 700;
     text-decoration: none;
 }
+header.topo .menu-mobile{display: none !important; }
+
+.menu-mobile{
+	
+	float: right;
+}
+.menu-mobile a{
+	font-size: 35px;
+	color: #ffff;
+	cursor: pointer;
+}	
+.menu-mobile nav{
+	
+	position: absolute;
+	left: 0;
+	top: 90px;
+	width: 100%;
+	display: none;
+
+
+}
+
+.menu-mobile a{
+	
+	display: block;
+	color: #ffff;
+	text-decoration: none;
+
+}
+
 header.topo .submit-line{
     display: flex;
 }
@@ -161,3 +191,14 @@ footer{
     color: #FBF6FF;
     
 }
+
+@media screen and (max-width: 1220px){
+    section.noticias img {
+        width: 100%;
+    }
+    .carrossel-noticias-post img{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1220px){
