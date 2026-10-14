@@ -25,7 +25,7 @@ Requer Python 3 para o servidor local. Abra http://localhost:8000.
 
 ## Demonstração e publicação
 
-Execução local. Nenhuma demonstração nova foi confirmada nesta etapa.
+[Acessar demonstração verificada](https://eugeancarlos.github.io/Desafio-roceket-blog/)
 
 ## Estrutura versionada
 
@@ -56,3 +56,7 @@ Protótipo / projeto de estudo em desenvolvimento. A descrição acima distingue
 [GitHub](https://github.com/EuGeanCarlos)
 
 Licenças, autoria compartilhada e atribuições existentes no código e nos materiais originais permanecem aplicáveis.
+
+## Validação desta auditoria — 14/10/2026
+
+PUBLICADO: [workflow confirmado](https://github.com/EuGeanCarlos/Desafio-roceket-blog/actions/runs/38606074439), HTTP 200, conteúdo correspondente ao projeto e 9 recursos locais verificados. Empacotamento local e sintaxe dos arquivos JavaScript verificados; teste funcional completo e responsividade não foram executados.
